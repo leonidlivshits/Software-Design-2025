@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "i5vdGUrgdWZoa4/uq7rooBWekBRoQ5A87IQogTOzVa1FufOpXH+0+I3RktMxhOGQg7HpFdIlL9sVS3erH/joCw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Марина\\source\\repos\\Software Design mini hw 1\\Software Design mini hw 1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Марина\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.1\\microsoft.extensions.dependencyinjection.9.0.1.nupkg.sha512",
+    "C:\\Users\\Марина\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
