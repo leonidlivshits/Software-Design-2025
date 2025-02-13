@@ -9,7 +9,7 @@ namespace ZooManagement.Domain.Predators
 {
     public class Tiger : Predator
     {
-        public Tiger(string name, int food, int number)
+        public Tiger(string name, uint food, uint number)
             : base(name, food, number)
         {
         }

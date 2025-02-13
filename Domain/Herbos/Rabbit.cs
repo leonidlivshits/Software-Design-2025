@@ -9,7 +9,7 @@ namespace ZooManagement.Domain.Herbos
 {
     public class Rabbit : Herbo
     {
-        public Rabbit(string name, int food, int number, int kindness)
+        public Rabbit(string name, uint food, uint number, uint kindness)
             : base(name, food, number, kindness)
         {
         }

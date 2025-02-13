@@ -17,7 +17,7 @@ namespace ZooManagement.Services
         /// <summary>
         /// Возвращает общее количество еды, потребляемой животными.
         /// </summary>
-        int GetTotalFoodConsumption();
+        long GetTotalFoodConsumption();
 
         /// <summary>
         /// Возвращает список животных, подходящих для контактного зоопарка.

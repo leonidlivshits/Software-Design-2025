@@ -8,6 +8,6 @@ namespace ZooManagement.Domain
 {
     public interface IInventory
     {
-        int Number { get; set; }
+        uint Number { get; set; }
     }
 }

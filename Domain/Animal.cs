@@ -8,15 +8,30 @@ namespace ZooManagement.Domain
 {
     public abstract class Animal : IAlive, IInventory
     {
-        public int Food { get; set; }
-        public int Number { get; set; }
+        public uint Food { get; set; }
+        public uint Number { get; set; }
         public string Name { get; set; }
 
-        protected Animal(string name, int food, int number)
+        protected Animal(string name, uint food, uint number)
         {
             Name = name;
             Food = food;
             Number = number;
         }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is Animal other)
+            {
+                return Name == other.Name && Number == other.Number;
+            }
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Name, Number);
+        }
+
     }
 }

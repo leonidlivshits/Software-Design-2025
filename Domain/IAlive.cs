@@ -8,6 +8,6 @@ namespace ZooManagement.Domain
 {
     public interface IAlive
     {
-        int Food { get; set; }
+        uint Food { get; set; }
     }
 }

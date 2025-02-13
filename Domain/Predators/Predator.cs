@@ -9,7 +9,7 @@ namespace ZooManagement.Domain.Predators
 {
     public abstract class Predator : Animal
     {
-        protected Predator(string name, int food, int number)
+        protected Predator(string name, uint food, uint number)
             : base(name, food, number)
         {
         }

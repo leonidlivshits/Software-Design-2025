@@ -9,13 +9,13 @@ namespace ZooManagement.Domain.Things
 {
     public class Table : Thing
     {
-        public Table(string name, int number)
-            : base(name, number)
+        public Table(string name, uint number, uint quantity = 1)
+            : base(name, number, quantity)
         {
         }
 
         public override string ToString() =>
-            $"Стол: {Name}, Номер: {Number}";
+            $"Стол: {Name}, Номер: {Number}, Количество: {Quantity}";
     }
 }
 
