@@ -7,6 +7,9 @@ using ZooManagement.Domain;
 
 namespace ZooManagement.Domain.Herbos
 {
+    /// <summary>
+    /// Абстрактный класс травоядного, наследую класс животного, имеет свойство доброты.
+    /// </summary>
     public abstract class Herbo : Animal
     {
         public uint Kindness { get; set; }

@@ -7,6 +7,9 @@ using ZooManagement.Domain;
 
 namespace ZooManagement.Domain.Things
 {
+    /// <summary>
+    /// Стол.
+    /// </summary>
     public class Table : Thing
     {
         public Table(string name, uint number, uint quantity = 1)

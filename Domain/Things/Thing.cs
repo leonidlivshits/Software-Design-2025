@@ -7,11 +7,17 @@ using ZooManagement.Domain;
 
 namespace ZooManagement.Domain.Things
 {
+    /// <summary>
+    /// Класс вещи, реализует интерфейс IInventory
+    /// </summary>
     public class Thing : IInventory
     {
         public uint Number { get; set; }
         public string Name { get; set; }
-
+        /// <summary>
+        /// Добавил количество, если у нас есть одинаковые объекты, то мы увеличиваем количество.
+        /// У животных такого нет, потому что двух одинаковых животных в зооопарке в моем понимании быть не должно.
+        /// </summary>
         public uint Quantity { get; private set; }
 
         public Thing(string name, uint number, uint quantity = 1)

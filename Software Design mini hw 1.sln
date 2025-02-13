@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Software Design mini hw 1", "Software Design mini hw 1.csproj", "{717D62FF-E092-4C33-880A-9D3EF3A0DA73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Software Design mini hw 1", "Software Design mini hw 1.csproj", "{717D62FF-E092-4C33-880A-9D3EF3A0DA73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Software_Design_mini_hw_1.Tests", "Software_Design_mini_hw_1.Tests\Software_Design_mini_hw_1.Tests.csproj", "{A91B2520-C611-41B6-A7F5-78DFD592B688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{717D62FF-E092-4C33-880A-9D3EF3A0DA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{717D62FF-E092-4C33-880A-9D3EF3A0DA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{717D62FF-E092-4C33-880A-9D3EF3A0DA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91B2520-C611-41B6-A7F5-78DFD592B688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91B2520-C611-41B6-A7F5-78DFD592B688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91B2520-C611-41B6-A7F5-78DFD592B688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91B2520-C611-41B6-A7F5-78DFD592B688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

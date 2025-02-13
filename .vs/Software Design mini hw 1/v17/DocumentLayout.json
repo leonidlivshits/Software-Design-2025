@@ -1,0 +1,562 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\services\\zooservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\services\\zooservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\services\\izooservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\services\\izooservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\services\\veterinaryclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\services\\veterinaryclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\services\\iveterinaryclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\services\\iveterinaryclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\things\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\things\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\things\\thing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\things\\thing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\things\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\things\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\predators\\wolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\predators\\wolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\predators\\tiger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\predators\\tiger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\predators\\predator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\predators\\predator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\herbos\\herbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\herbos\\herbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\herbos\\monkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\herbos\\monkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\herbos\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\herbos\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software_design_mini_hw_1.tests\\services\\veterinaryclinictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|solutionrelative:software_design_mini_hw_1.tests\\services\\veterinaryclinictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software_design_mini_hw_1.tests\\services\\zooservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|solutionrelative:software_design_mini_hw_1.tests\\services\\zooservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software_design_mini_hw_1.tests\\domain\\thingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|solutionrelative:software_design_mini_hw_1.tests\\domain\\thingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software_design_mini_hw_1.tests\\software_design_mini_hw_1.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|solutionrelative:software_design_mini_hw_1.tests\\software_design_mini_hw_1.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software_design_mini_hw_1.tests\\mocks\\mockveterinaryclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|solutionrelative:software_design_mini_hw_1.tests\\mocks\\mockveterinaryclinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software_design_mini_hw_1.tests\\domain\\animaltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|solutionrelative:software_design_mini_hw_1.tests\\domain\\animaltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\iinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\iinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software_design_mini_hw_1.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91B2520-C611-41B6-A7F5-78DFD592B688}|Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj|solutionrelative:software_design_mini_hw_1.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software design mini hw 1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:software design mini hw 1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software design mini hw 1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:software design mini hw 1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\software design mini hw 1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:software design mini hw 1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\packages\\mstest.testadapter.2.2.10\\build\\net45\\mstest.testadapter.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:packages\\mstest.testadapter.2.2.10\\build\\net45\\mstest.testadapter.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\domain\\ialive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:domain\\ialive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\7.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|c:\\users\\\u043C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\software design mini hw 1\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{717D62FF-E092-4C33-880A-9D3EF3A0DA73}|Software Design mini hw 1.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 35,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ThingTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Domain\\ThingTests.cs",
+              "RelativeDocumentMoniker": "Software_Design_mini_hw_1.Tests\\Domain\\ThingTests.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Domain\\ThingTests.cs",
+              "RelativeToolTip": "Software_Design_mini_hw_1.Tests\\Domain\\ThingTests.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:20:18.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AnimalTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Domain\\AnimalTests.cs",
+              "RelativeDocumentMoniker": "Software_Design_mini_hw_1.Tests\\Domain\\AnimalTests.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Domain\\AnimalTests.cs",
+              "RelativeToolTip": "Software_Design_mini_hw_1.Tests\\Domain\\AnimalTests.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:18:29.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:37:03.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MSTest.TestAdapter.targets",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\packages\\MSTest.TestAdapter.2.2.10\\build\\net45\\MSTest.TestAdapter.targets",
+              "RelativeDocumentMoniker": "packages\\MSTest.TestAdapter.2.2.10\\build\\net45\\MSTest.TestAdapter.targets",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\packages\\MSTest.TestAdapter.2.2.10\\build\\net45\\MSTest.TestAdapter.targets",
+              "RelativeToolTip": "packages\\MSTest.TestAdapter.2.2.10\\build\\net45\\MSTest.TestAdapter.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-13T15:27:51.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Software Design mini hw 1",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software Design mini hw 1.csproj",
+              "RelativeDocumentMoniker": "Software Design mini hw 1.csproj",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software Design mini hw 1.csproj",
+              "RelativeToolTip": "Software Design mini hw 1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T14:48:48.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Software Design mini hw 1.csproj",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software Design mini hw 1.csproj",
+              "RelativeDocumentMoniker": "Software Design mini hw 1.csproj",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software Design mini hw 1.csproj",
+              "RelativeToolTip": "Software Design mini hw 1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T14:47:46.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Software_Design_mini_hw_1.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "Software_Design_mini_hw_1.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T14:35:36.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ZooServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Services\\ZooServiceTests.cs",
+              "RelativeDocumentMoniker": "Software_Design_mini_hw_1.Tests\\Services\\ZooServiceTests.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Services\\ZooServiceTests.cs",
+              "RelativeToolTip": "Software_Design_mini_hw_1.Tests\\Services\\ZooServiceTests.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T13:47:26.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MockVeterinaryClinic.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Mocks\\MockVeterinaryClinic.cs",
+              "RelativeDocumentMoniker": "Software_Design_mini_hw_1.Tests\\Mocks\\MockVeterinaryClinic.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Mocks\\MockVeterinaryClinic.cs",
+              "RelativeToolTip": "Software_Design_mini_hw_1.Tests\\Mocks\\MockVeterinaryClinic.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T13:46:20.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Software_Design_mini_hw_1.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj",
+              "RelativeDocumentMoniker": "Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj",
+              "RelativeToolTip": "Software_Design_mini_hw_1.Tests\\Software_Design_mini_hw_1.Tests.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T13:59:29.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AQIAAJkAAAAAAAAAAAApwKQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-13T13:52:36.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VeterinaryClinicTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Services\\VeterinaryClinicTests.cs",
+              "RelativeDocumentMoniker": "Software_Design_mini_hw_1.Tests\\Services\\VeterinaryClinicTests.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software_Design_mini_hw_1.Tests\\Services\\VeterinaryClinicTests.cs",
+              "RelativeToolTip": "Software_Design_mini_hw_1.Tests\\Services\\VeterinaryClinicTests.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T13:50:26.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-02-13T09:04:49.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Software Design mini hw 1.csproj",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software Design mini hw 1.csproj",
+              "RelativeDocumentMoniker": "Software Design mini hw 1.csproj",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Software Design mini hw 1.csproj",
+              "RelativeToolTip": "Software Design mini hw 1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-09T22:32:27.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZooServices.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Services\\ZooServices.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\ZooServices.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Services\\ZooServices.cs",
+              "RelativeToolTip": "Domain\\Services\\ZooServices.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T22:24:59.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IZooServices.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Services\\IZooServices.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\IZooServices.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Services\\IZooServices.cs",
+              "RelativeToolTip": "Domain\\Services\\IZooServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:36:49.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VeterinaryClinic.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Services\\VeterinaryClinic.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\VeterinaryClinic.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Services\\VeterinaryClinic.cs",
+              "RelativeToolTip": "Domain\\Services\\VeterinaryClinic.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:27:15.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVeterinaryClinic.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Services\\IVeterinaryClinic.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\IVeterinaryClinic.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Services\\IVeterinaryClinic.cs",
+              "RelativeToolTip": "Domain\\Services\\IVeterinaryClinic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T21:22:53.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Computer.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Things\\Computer.cs",
+              "RelativeDocumentMoniker": "Domain\\Things\\Computer.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Things\\Computer.cs",
+              "RelativeToolTip": "Domain\\Things\\Computer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:40:33.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Things\\Table.cs",
+              "RelativeDocumentMoniker": "Domain\\Things\\Table.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Things\\Table.cs",
+              "RelativeToolTip": "Domain\\Things\\Table.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:38:47.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Thing.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Things\\Thing.cs",
+              "RelativeDocumentMoniker": "Domain\\Things\\Thing.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Things\\Thing.cs",
+              "RelativeToolTip": "Domain\\Things\\Thing.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowBIAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:32:21.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Wolf.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Predators\\Wolf.cs",
+              "RelativeDocumentMoniker": "Domain\\Predators\\Wolf.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Predators\\Wolf.cs",
+              "RelativeToolTip": "Domain\\Predators\\Wolf.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:30:18.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tiger.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Predators\\Tiger.cs",
+              "RelativeDocumentMoniker": "Domain\\Predators\\Tiger.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Predators\\Tiger.cs",
+              "RelativeToolTip": "Domain\\Predators\\Tiger.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:28:00.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Monkey.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Herbos\\Monkey.cs",
+              "RelativeDocumentMoniker": "Domain\\Herbos\\Monkey.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Herbos\\Monkey.cs",
+              "RelativeToolTip": "Domain\\Herbos\\Monkey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:26:32.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Rabbit.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Herbos\\Rabbit.cs",
+              "RelativeDocumentMoniker": "Domain\\Herbos\\Rabbit.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Herbos\\Rabbit.cs",
+              "RelativeToolTip": "Domain\\Herbos\\Rabbit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:23:41.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Predator.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Predators\\Predator.cs",
+              "RelativeDocumentMoniker": "Domain\\Predators\\Predator.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Predators\\Predator.cs",
+              "RelativeToolTip": "Domain\\Predators\\Predator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:09:21.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Herbo.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Herbos\\Herbo.cs",
+              "RelativeDocumentMoniker": "Domain\\Herbos\\Herbo.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Herbos\\Herbo.cs",
+              "RelativeToolTip": "Domain\\Herbos\\Herbo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T19:06:07.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Animal.cs",
+              "RelativeDocumentMoniker": "Domain\\Animal.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\Animal.cs",
+              "RelativeToolTip": "Domain\\Animal.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:30:06.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IInventory.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\IInventory.cs",
+              "RelativeDocumentMoniker": "Domain\\IInventory.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\IInventory.cs",
+              "RelativeToolTip": "Domain\\IInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:26:37.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAlive.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\IAlive.cs",
+              "RelativeDocumentMoniker": "Domain\\IAlive.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Domain\\IAlive.cs",
+              "RelativeToolTip": "Domain\\IAlive.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:25:53.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Software Design mini hw 1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAADgv44AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:21:26.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

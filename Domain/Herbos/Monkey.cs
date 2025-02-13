@@ -7,6 +7,9 @@ using ZooManagement.Domain.Herbos;
 
 namespace ZooManagement.Domain.Herbos
 {
+    /// <summary>
+    /// Класс обезьяны, наследую абстрактный класс травоядных.
+    /// </summary>
     public class Monkey : Herbo
     {
         public Monkey(string name, uint food, uint number, uint kindness)
@@ -15,7 +18,7 @@ namespace ZooManagement.Domain.Herbos
         }
 
         public override string ToString() =>
-            $"Бибизяна: {Name}, Номер: {Number}, Еда: {Food} кг, Доброта: {Kindness}";
+            $"Обезьяна: {Name}, Номер: {Number}, Еда: {Food} кг, Доброта: {Kindness}";
     }
 }
 
