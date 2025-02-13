@@ -1,197 +1,4 @@
-﻿/*using System;
-using Microsoft.Extensions.DependencyInjection;
-using ZooManagement.Domain;
-using ZooManagement.Domain.Herbos;
-using ZooManagement.Domain.Predators;
-using ZooManagement.Domain.Things;
-using ZooManagement.Services;
-
-
-
-namespace ZooManagement
-{
-    /// <summary>
-    /// Точка входа приложения. Настраивает DI-контейнер и предоставляет консольное меню.
-    /// </summary>
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Настройка DI-контейнера
-            var serviceProvider = new ServiceCollection()
-                .AddSingleton<IVeterinaryClinic, VeterinaryClinic>()
-                .AddSingleton<IZooService, ZooService>()
-                .BuildServiceProvider();
-
-            var zooService = serviceProvider.GetService<IZooService>();
-
-            bool exit = false;
-            while (!exit)
-            {
-                Console.WriteLine("\n--- Московский зоопарк ERP ---");
-                Console.WriteLine("1. Добавить животное");
-                Console.WriteLine("2. Вывести отчет");
-                Console.WriteLine("3. Добавить инвентарную вещь");
-                Console.WriteLine("4. Выход");
-                Console.Write("Выберите опцию: ");
-                var choice = Console.ReadLine();
-
-                switch (choice)
-                {
-                    case "1":
-                        AddAnimal(zooService);
-                        break;
-                    case "2":
-                        ShowReport(zooService);
-                        break;
-                    case "3":
-                        AddInventoryItem(zooService);
-                        break;
-                    case "4":
-                        exit = true;
-                        break;
-                    default:
-                        Console.WriteLine("Неверный выбор. Попробуйте снова.");
-                        break;
-                }
-            }
-        }
-        *//*private static Animal choiceOfAnimal()
-        {
-
-            Animal animal = null;
-            return animal;
-        }*//*
-        private static void AddAnimal(IZooService zooService)
-        {
-            Console.WriteLine("\nВыберите тип животного:");
-            Console.WriteLine("1. Кролик (Rabbit)");
-            Console.WriteLine("2. Обезьяна (Monkey)");
-            Console.WriteLine("3. Тигр (Tiger)");
-            Console.WriteLine("4. Волк (Wolf)");
-            Console.Write("Ваш выбор: ");
-            var typeChoice = Console.ReadLine();
-
-            Console.Write("Введите имя животного: ");
-            string name = Console.ReadLine();
-
-            Console.Write("Введите количество потребляемой еды (кг): ");
-            int food = int.Parse(Console.ReadLine());
-
-            Console.Write("Введите инвентаризационный номер: ");
-            int number = int.Parse(Console.ReadLine());
-
-            Animal animal = null;
-            switch (typeChoice)
-            {
-                case "1": // Rabbit
-                    Console.Write("Введите уровень доброты (0-10): ");
-                    int kindnessRabbit = int.Parse(Console.ReadLine());
-                    animal = new Rabbit(name, food, number, kindnessRabbit);
-                    break;
-                case "2": // Monkey
-                    Console.Write("Введите уровень доброты (0-10): ");
-                    int kindnessMonkey = int.Parse(Console.ReadLine());
-                    animal = new Monkey(name, food, number, kindnessMonkey);
-                    break;
-                case "3": // Tiger
-                    animal = new Tiger(name, food, number);
-                    break;
-                case "4": // Wolf
-                    animal = new Wolf(name, food, number);
-                    break;
-                default:
-                    Console.WriteLine("Неверный выбор типа животного.");
-                    return;
-            }
-
-            if (zooService.AddAnimal(animal))
-            {
-                Console.WriteLine("Животное успешно добавлено в зоопарк.");
-            }
-            else
-            {
-                Console.WriteLine("Животное не прошло медосмотр и не добавлено.");
-            }
-        }
-
-        private static void AddInventoryItem(IZooService zooService)
-        {
-            Console.WriteLine("\nВыберите тип инвентарной вещи:");
-            Console.WriteLine("1. Предмет (Thing)");
-            Console.WriteLine("2. Стол (Table)");
-            Console.WriteLine("3. Компьютер (Computer)");
-            Console.Write("Ваш выбор: ");
-            var typeChoice = Console.ReadLine();
-
-            Console.Write("Введите наименование: ");
-            string name = Console.ReadLine();
-
-            Console.Write("Введите инвентаризационный номер: ");
-            int number = int.Parse(Console.ReadLine());
-
-            IInventory item = null;
-            switch (typeChoice)
-            {
-                case "1":
-                    item = new Thing(name, number);
-                    break;
-                case "2":
-                    item = new Table(name, number);
-                    break;
-                case "3":
-                    item = new Computer(name, number);
-                    break;
-                default:
-                    Console.WriteLine("Неверный выбор типа вещи.");
-                    return;
-            }
-
-            zooService.AddInventoryItem(item);
-            Console.WriteLine("Инвентарная вещь успешно добавлена.");
-        }
-
-        private static void ShowReport(IZooService zooService)
-        {
-            Console.WriteLine("\n--- Отчет ---");
-
-            // Вывод списка животных
-            var animals = zooService.GetAnimals();
-            Console.WriteLine("\nЖивотные, находящиеся на балансе зоопарка:");
-            foreach (var animal in animals)
-            {
-                Console.WriteLine(animal.ToString());
-            }
-            Console.WriteLine($"\nОбщее количество животных: {animals.Count()}");
-            Console.WriteLine($"Общее количество потребляемой еды: {zooService.GetTotalFoodConsumption()} кг/день");
-
-            // Вывод списка животных для контактного зоопарка
-            Console.WriteLine("\nЖивотные, подходящие для контактного зоопарка (травоядные с добротой > 5):");
-            var contactAnimals = zooService.GetContactZooAnimals();
-            foreach (var animal in contactAnimals)
-            {
-                Console.WriteLine(animal.ToString());
-            }
-
-            // Вывод инвентарных вещей
-            Console.WriteLine("\nИнвентарные вещи:");
-            var items = zooService.GetInventoryItems();
-            foreach (var item in items)
-            {
-                string itemName = "";
-                if (item is Animal a)
-                    itemName = a.Name;
-                else if (item is Thing t)
-                    itemName = t.Name;
-                Console.WriteLine($"{item.GetType().Name}: {itemName}, Инв. номер: {item.Number}");
-            }
-        }
-    }
-}
-*/
-
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
@@ -204,11 +11,7 @@ using ZooManagement.Services;
 namespace ZooManagement
 {
     /// <summary>
-    /// Точка входа приложения. Настраивает DI-контейнер и предоставляет консольное меню.
-    /// Приложение декомпозировано на функции, каждая из которых отвечает за отдельную задачу:
-    /// - Ввод данных и их валидация;
-    /// - Создание объектов;
-    /// - Вывод информации на консоль.
+    /// DI контеней и декомпозированные функции.
     /// </summary>
     class Program
     {
@@ -250,21 +53,21 @@ namespace ZooManagement
         }
 
         /// <summary>
-        /// Отображает главное меню приложения.
+        /// Главное меню приложения.
         /// </summary>
         private static void DisplayMainMenu()
         {
             Console.WriteLine("\n--- Московский зоопарк ERP ---");
             Console.WriteLine("1. Добавить животное");
             Console.WriteLine("2. Вывести отчет");
-            Console.WriteLine("3. Добавить инвентарную вещь");
+            Console.WriteLine("3. Добавить инвентарь");
             Console.WriteLine("4. Выход");
             Console.Write("Выберите опцию: ");
         }
 
         /// <summary>
-        /// Обрабатывает добавление животного: получает данные, создает объект животного,
-        /// передает его в сервис и выводит результат.
+        /// Проверка добавления животного: получаем сервис, создаем объект животного,
+        /// передаем его в сервис и выводим результат.
         /// </summary>
         private static void HandleAddAnimal(IZooService zooService)
         {
@@ -282,8 +85,8 @@ namespace ZooManagement
         }
 
         /// <summary>
-        /// Обрабатывает добавление инвентарной вещи: получает данные, создает объект вещи,
-        /// передает его в сервис и выводит результат.
+        /// Проверка добавления животного: получаем сервис, создаем объект вещи,
+        /// передаем его в сервис и выводим результат.
         /// </summary>
         private static void HandleAddInventoryItem(IZooService zooService)
         {
@@ -299,7 +102,7 @@ namespace ZooManagement
         }
 
         /// <summary>
-        /// Обрабатывает вывод отчета: отображает животных, потребление еды, список животных для
+        /// Отчёт: отображает животных, потребление еды, список животных для
         /// контактного зоопарка и список инвентарных вещей.
         /// </summary>
         private static void HandleShowReport(IZooService zooService)
@@ -314,7 +117,7 @@ namespace ZooManagement
         }
 
         /// <summary>
-        /// Создает объект Animal на основе данных, введенных пользователем.
+        /// Создает объект Animal на основе данных с консоли.
         /// </summary>
         private static Animal CreateAnimal()
         {
@@ -333,11 +136,11 @@ namespace ZooManagement
             switch (animalType)
             {
                 case 1: // Rabbit
-                    uint kindnessRabbit = ReadUintInRange("Введите уровень доброты (0-10): ", 0, 10);
+                    uint kindnessRabbit = ReadIUintOption("Введите уровень доброты (0-10): ", 0, 10);
                     animal = new Rabbit(name, food, number, kindnessRabbit);
                     break;
                 case 2: // Monkey
-                    uint kindnessMonkey = ReadUintInRange("Введите уровень доброты (0-10): ", 0, 10);
+                    uint kindnessMonkey = ReadIUintOption("Введите уровень доброты (0-10): ", 0, 10);
                     animal = new Monkey(name, food, number, kindnessMonkey);
                     break;
                 case 3: // Tiger
@@ -351,7 +154,7 @@ namespace ZooManagement
         }
 
         /// <summary>
-        /// Создает объект IInventory на основе данных, введенных пользователем.
+        /// Создает объект IInventory на основе данныхс консоли.
         /// </summary>
         private static IInventory CreateInventoryItem()
         {
@@ -406,7 +209,7 @@ namespace ZooManagement
         }
 
         /// <summary>
-        /// Выводит список инвентарных вещей.
+        /// Выводит список инвентаря.
         /// </summary>
         private static void DisplayInventoryItems(IEnumerable<IInventory> items)
         {
@@ -434,7 +237,7 @@ namespace ZooManagement
         }
 
         /// <summary>
-        /// Читает с консоли число, с проверкой корректности ввода.
+        /// Читает с консоли положительное число, с проверкой корректности ввода.
         /// </summary>
         private static uint ReadUint(string prompt)
         {
@@ -460,15 +263,6 @@ namespace ZooManagement
                     return value;
                 Console.WriteLine($"Пожалуйста, введите число от {min} до {max}.");
             }
-        }
-
-        /// <summary>
-        /// Читает с консоли число и проверяет, что оно находится в указанном диапазоне.
-        /// Функционально аналогична ReadIUintOption.
-        /// </summary>
-        private static uint ReadUintInRange(string prompt, uint min, uint max)
-        {
-            return ReadIUintOption(prompt, min, max);
         }
     }
 }

@@ -7,6 +7,9 @@ using ZooManagement.Domain;
 
 namespace ZooManagement.Domain.Predators
 {
+    /// <summary>
+    /// Класс тигра, наследую абстрактный класс хищника.
+    /// </summary>
     public class Tiger : Predator
     {
         public Tiger(string name, uint food, uint number)

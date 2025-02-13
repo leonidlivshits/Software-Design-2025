@@ -7,7 +7,9 @@ using ZooManagement.Domain;
 
 namespace ZooManagement.Services
 {
-
+    /// <summary>
+    /// Реализую интерфейс клиники.
+    /// </summary>
     public class VeterinaryClinic : IVeterinaryClinic
     {
         public bool Examine(Animal animal)

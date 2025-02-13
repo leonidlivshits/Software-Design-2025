@@ -10,12 +10,12 @@ namespace ZooManagement.Services
     public interface IZooService
     {
         /// <summary>
-        /// Проводит добавление животного (после проверки ветеринаром).
+        /// Добавление животного (после проверки ветеринаром).
         /// </summary>
         bool AddAnimal(Animal animal);
 
         /// <summary>
-        /// Возвращает общее количество еды, потребляемой животными.
+        /// Возвращает общее количество еды от животных.
         /// </summary>
         long GetTotalFoodConsumption();
 
@@ -26,19 +26,18 @@ namespace ZooManagement.Services
         IEnumerable<Animal> GetContactZooAnimals();
 
         /// <summary>
-        /// Возвращает все объекты, находящиеся на балансе (животные и вещи).
+        /// Возвращает все объекты.
         /// </summary>
         IEnumerable<IInventory> GetInventoryItems();
 
         /// <summary>
-        /// Возвращает список добавленных животных.
+        /// Возвращает добавленных животных.
         /// </summary>
         IEnumerable<Animal> GetAnimals();
 
         /// <summary>
-        /// Добавляет новую инвентарную вещь.
+        /// Добавляет новую инвентарь.
         /// </summary>
         void AddInventoryItem(IInventory item);
-        
     }
 }

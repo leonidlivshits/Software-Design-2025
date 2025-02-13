@@ -10,57 +10,6 @@ using ZooManagement.Domain.Things;
 
 namespace ZooManagement.Services
 {
-    //public class ZooService : IZooService
-    //{
-    //    private readonly IVeterinaryClinic _veterinaryClinic;
-    //    private readonly List<Animal> _animals;
-    //    private readonly List<IInventory> _inventoryItems;
-
-    //    public ZooService(IVeterinaryClinic veterinaryClinic)
-    //    {
-    //        _veterinaryClinic = veterinaryClinic;
-    //        _animals = new List<Animal>();
-    //        _inventoryItems = new List<IInventory>();
-    //    }
-
-    //    public bool AddAnimal(Animal animal)
-    //    {
-    //        if (_veterinaryClinic.Examine(animal))
-    //        {
-    //            _animals.Add(animal);
-    //            _inventoryItems.Add(animal);
-    //            return true;
-    //        }
-    //        return false;
-    //    }
-
-    //    public long GetTotalFoodConsumption()
-    //    {
-    //        return _animals.Sum(a => a.Food);
-    //    }
-
-    //    public IEnumerable<Animal> GetContactZooAnimals()
-    //    {
-    //        return _animals.OfType<Herbo>().Where(h => h.Kindness > 5);
-    //    }
-
-    //    public IEnumerable<IInventory> GetInventoryItems()
-    //    {
-    //        return _inventoryItems;
-    //    }
-
-    //    public IEnumerable<Animal> GetAnimals()
-    //    {
-    //        return _animals;
-    //    }
-
-    //    public void AddInventoryItem(IInventory item)
-    //    {
-    //        _inventoryItems.Add(item);
-    //    }
-    //}
-
-
     public class ZooService : IZooService
     {
         private readonly IVeterinaryClinic _veterinaryClinic;
@@ -74,6 +23,9 @@ namespace ZooManagement.Services
             _inventoryItems = new HashSet<Thing>();
         }
 
+        /// <summary>
+        /// Добавление животного (после проверки ветеринаром).
+        /// </summary>
         public bool AddAnimal(Animal animal)
         {
             if (_veterinaryClinic.Examine(animal))
@@ -87,26 +39,42 @@ namespace ZooManagement.Services
             return false;
         }
 
+        /// <summary>
+        /// Возвращает общее количество еды от животных.
+        /// </summary>
         public long GetTotalFoodConsumption()
         {
             return _animals.Sum(a => a.Food);
         }
 
+        /// <summary>
+        /// Возвращает список животных, подходящих для контактного зоопарка.
+        /// (травоядные с уровнем доброты выше 5)
+        /// </summary>
         public IEnumerable<Animal> GetContactZooAnimals()
         {
             return _animals.OfType<Herbo>().Where(h => h.Kindness > 5);
         }
 
+        /// <summary>
+        /// Возвращает все объекты.
+        /// </summary>
         public IEnumerable<IInventory> GetInventoryItems()
         {
             return _inventoryItems;
         }
 
+        /// <summary>
+        /// Возвращает список добавленных животных.
+        /// </summary>
         public IEnumerable<Animal> GetAnimals()
         {
             return _animals;
         }
 
+        /// <summary>
+        /// Добавляет новую инвентарь.
+        /// </summary>
         public void AddInventoryItem(IInventory item)
         {
             if (item is Thing thing)

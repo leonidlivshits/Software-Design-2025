@@ -1,0 +1,26 @@
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Software Design mini hw 1.exe
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Software Design mini hw 1.deps.json
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Software Design mini hw 1.runtimeconfig.json
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Software Design mini hw 1.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Software Design mini hw 1.pdb
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Moq.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\xunit.core.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\Software Design mini hw 1.csproj.AssemblyReference.cache
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\Software Design mini hw 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\Software Design mini hw 1.csproj.CoreCompileInputs.cache
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\Software Design mini hw 1.sourcelink.json
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\Software.5671A9EA.Up2Date
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\Software Design mini hw 1.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\refint\Software Design mini hw 1.dll
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\Software Design mini hw 1.pdb
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\Software Design mini hw 1.genruntimeconfig.cache
+C:\Users\Марина\source\repos\Software Design mini hw 1\obj\Debug\net8.0\ref\Software Design mini hw 1.dll

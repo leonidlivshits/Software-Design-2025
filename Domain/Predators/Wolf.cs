@@ -7,13 +7,15 @@ using ZooManagement.Domain;
 
 namespace ZooManagement.Domain.Predators
 {
+    /// <summary>
+    /// Класс волка, наследую абстрактный класс хищника.
+    /// </summary>
     public class Wolf : Predator
     {
         public Wolf(string name, uint food, uint number)
             : base(name, food, number)
         {
         }
-
         public override string ToString() =>
             $"Волк: {Name}, Номер: {Number}, Еда: {Food} кг";
     }

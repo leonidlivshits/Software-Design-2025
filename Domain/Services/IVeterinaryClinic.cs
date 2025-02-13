@@ -10,6 +10,11 @@ namespace ZooManagement.Services
 {
     public interface IVeterinaryClinic
     {
+        /// <summary>
+        /// Осмотр животного.
+        /// </summary>
+        /// <param name="animal"></param>
+        /// <returns></returns>
         bool Examine(Animal animal);
     }
 }
